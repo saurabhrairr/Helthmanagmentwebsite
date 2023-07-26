@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.custom-dropdown {
+       /* background: linear-gradient(135deg, #71b7e6, #71b7e6); */
+       background-color: #3D95D0;
+        margin: 9px;
+        padding: 7.2px;
+       border: none;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color:#FFFF;
+       font-size: 16px;
+       margin-bottom: 18px;
+       box-sizing: border-box;
+       font-family: "Poppins", sans-serif;
+     }

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+ 
+ .input-box
+{
+       display: grid;
+
+}
+
+.input-box input
+{
+      height: 30px;
+     width: 300px;  
+}
+
+
+.user-details p{
+       margin-left:30px ;
+       transition: all 0.3s ease;
+       font-size: xx-large;
+       padding-top: 70px;
+       font-weight: bold;
+}
+.user-details1 p{
+       margin-left:30px ;
+       transition: all 0.3s ease;
+       font-size: xx-large;
+       padding-top: 70px;
+       font-weight: bold;
+
+
+     
+}
+
+
+
+.button input{
+       background-color: #03484d;
+       color: #ffff;
+}
+.input-box span{
+       margin:12px ;
+}
+
+
+.container{
+       display: flex;
+       justify-content: center; 
+       align-items: stretch;
+       padding: 20px; 
+       padding-bottom: 7.25%;
+     }
+     
+     .user-details {
+       flex: 1;
+       margin-right: 10px;
+       margin: 0 10px; 
+      padding: 10px
+     }
+
+     .line {
+       width: 1px; /* Set the width of the vertical line */
+       height: 100%; /* Make the line span from top to bottom */
+       background-color: #000000; /* Set the color of the vertical line */
+       margin: 10px 30px;
+     }
+
+     .button input{
+       height: 40px;
+         margin-top: 25px;
+     }
+     
+     @media (max-width: 600px) {
+       .container  {
+              display:block;
+         background-color: #ffff;
+        padding: 6px;
+         
+       }
+     }
+   

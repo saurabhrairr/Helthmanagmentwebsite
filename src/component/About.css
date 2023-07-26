@@ -1,0 +1,139 @@
+
+
+ .container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 200px 200px 200px;
+  border: 1px solid black;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+} 
+
+.header1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  white-space: nowrap;
+}
+
+.header1 h1 {
+  margin-left: 370px;
+  margin-bottom: 50px;
+  word-wrap: break-word;
+}
+
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-container1 {
+  width: 50%; 
+}
+
+.header1 p{
+       margin-left: 80px;
+           margin-right: 100px;
+       /* font-size: 100%;
+       -ms-text-size-adjust: 100%;
+       -webkit-text-size-adjust: 100%;
+       vertical-align: baseline;
+       background: transparent; */
+    
+       /* text-align: justify;  */
+}
+
+.image-container1 img {
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-right:130px;
+
+}
+
+.text-container1 {
+  width: 50%;
+  /* padding-left: 20px;  */
+  padding-bottom: 20px;
+}
+
+
+
+.text-container1 p {
+  text-align: justify;
+}
+.text-container1 img {
+  width: 28px;
+  height: auto;
+  margin-right: 28px;
+  margin-top: 4px;
+}
+
+.text-container1 span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+.text-container1 p {
+  margin-left: 40px;
+  padding: 15px;
+  font-size: 100%;
+}
+
+
+
+
+
+     @media screen and (max-width: 600px) {
+       .container1 {
+         padding: 50px;
+         
+       }
+       .container1 {
+        padding: 0;
+        margin: 0;
+      }
+       .header1 {
+              padding: 0 20px;
+              white-space: pre-line; 
+            }
+          
+            .header1 p{
+              margin-right: 80px;
+                  margin-left: 100px;
+            }
+         
+       .content1 {
+         flex-direction: column;
+       }
+     
+       .image-container1 {
+         width: 100%;
+         text-align: center;
+         margin-bottom: 20px;
+       }
+     
+       .image-container1 img {
+         width: 100%;
+         height: auto;
+         margin: 0;
+        
+       }
+     
+       .text-container1 {
+         width: 100%;
+         padding: 0;
+       }
+       .text-container1 img{
+        margin-left: 7px;
+           
+            }
+     
+       .text-container1 p {
+         margin: 0;
+         white-space: pre-line; 
+       }
+     }

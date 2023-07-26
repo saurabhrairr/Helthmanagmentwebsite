@@ -1,0 +1,25 @@
+/* .info-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-content {
+  flex: 1 0 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.info-content p {
+  font-weight: bold;
+}
+
+.info-content li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .info-content {
+    flex: 1 4 100%;
+  }
+} */
